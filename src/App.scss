@@ -1,0 +1,124 @@
+// Define SCSS Variables
+$killarney: #2e5530;
+$driftwood: #ae944f;
+$saltpan: #f4f9f4;
+$envy: #8ea590;
+$eagle: #bcc09f;
+$gum-leaf: #bad0be;
+$hippie-blue: #5c88ad;
+$moon-mist: #d6dac7;
+$hurricane: #887c7c;
+$shady-lady: #b5b4b5;
+
+$primary-color: $envy;
+$secondary-color: $hurricane;
+$tertiary-color: $saltpan;
+
+// Styles
+.jumbotron {
+  background-image: url("./assets/pharmacyPic.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 500px;
+  display: flex;
+  padding-top: 65px;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-fill-color: #e4d64b;
+}
+
+.refill-button {
+  display: inline-block;
+  border-radius: 100px; // Pill shape
+  padding: 10px 20px;
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary-color);
+
+  .refill-word {
+    background-color: yellow;
+    padding: 15px;
+    border-radius: 50px 0 0 50px;
+  }
+  .prescription-word {
+    background-color: red;
+    padding: 15px;
+    border-radius: 0 50px 50px 0;
+  }
+}
+
+body {
+  background-color: $tertiary-color;
+  color: $primary-color;
+}
+
+.navbar {
+  background-color: $primary-color;
+
+  .nav-link {
+    color: $tertiary-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  color: $tertiary-color;
+
+  a {
+    color: $tertiary-color;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+}
+
+.card {
+  border: 1px solid $primary-color;
+
+  .card-title {
+    color: $primary-color;
+  }
+
+  .card-subtitle {
+    color: $secondary-color;
+  }
+}
+
+.banner {
+  background-color: $gum-leaf;
+  color: $primary-color;
+}
+
+.intro {
+  background-color: $moon-mist;
+  color: $primary-color;
+}
+
+.services {
+  background-color: $eagle;
+  color: $primary-color;
+}
+
+.testimonials {
+  background-color: $hippie-blue;
+  color: $primary-color;
+}
