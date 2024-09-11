@@ -8,21 +8,21 @@ const AboutUs = () => {
       role: "Pharmacist",
       description:
         "John has over 10 years of experience in the pharmaceutical industry. He is dedicated to providing the best healthcare services to our community.",
-      image: "src/assets/pharmacist.jpg",
+      image: "https://images.unsplash.com/photo-1657551856874-d492ef8ecba0",
     },
     {
       name: "Jane Smith",
       role: "Assistant Pharmacist",
       description:
         "Jane is a skilled assistant pharmacist who has been with us for 5 years. She is known for her friendly demeanor and excellent customer service.",
-      image: "src/assets/assistantPharmacist.jpeg",
+      image: "https://images.unsplash.com/photo-1657470179442-12be86434e22",
     },
     {
       name: "Michael Johnson",
       role: "Pharmacy Technician",
       description:
         "Michael is a certified pharmacy technician with a passion for helping patients. He ensures that our pharmacy runs smoothly and efficiently.",
-      image: "src/assets/technician.jpeg",
+      image: "https://images.unsplash.com/photo-1580281658626-ee379f3cce93",
     },
   ];
 
