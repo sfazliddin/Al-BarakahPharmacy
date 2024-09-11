@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import { CompanyName } from "../assets/globalConsts.js";
+import { base, CompanyName } from "../assets/globalConsts.js";
 
 const Header = () => {
   return (
@@ -24,27 +24,27 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to={base}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">
+              <Link className="nav-link" to={base + "about"}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">
+              <Link className="nav-link" to={base + "services"}>
                 Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/refill">
+              <Link className="nav-link" to={base + "refill"}>
                 Refill
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-link" to={base + "contact"}>
                 Contact
               </Link>
             </li>

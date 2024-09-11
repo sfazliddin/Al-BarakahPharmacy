@@ -13,3 +13,4 @@ export const operationTimes = new Map([
     ["Saturday", "9:30 AM - 7:30 PM"],
     ["Sunday", "Closed"],
 ]);
+export const base = "/al-barakahpharmacy/"

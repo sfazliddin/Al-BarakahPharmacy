@@ -1,5 +1,11 @@
 import { Link } from "react-router-dom";
-import { address, CompanyName, email, phone } from "../assets/globalConsts.js";
+import {
+  address,
+  base,
+  CompanyName,
+  email,
+  phone,
+} from "../assets/globalConsts.js";
 
 const Footer = () => {
   return (
@@ -20,19 +26,19 @@ const Footer = () => {
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
               <li>
-                <Link to="/">Home</Link>
+                <Link to={base}>Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to={base + "about"}>About</Link>
               </li>
               <li>
-                <Link to="/contact">Contact</Link>
+                <Link to={base + "contact"}>Contact</Link>
               </li>
               <li>
-                <Link to="/refill">Refill</Link>
+                <Link to={base + "refill"}>Refill</Link>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <Link to={base + "services"}>Services</Link>
               </li>
             </ul>
           </div>
